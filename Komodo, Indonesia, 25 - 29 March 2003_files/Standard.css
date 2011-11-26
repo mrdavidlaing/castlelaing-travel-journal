@@ -1,0 +1,144 @@
+/*general page elements*/
+body {
+	margin: 0px;
+	padding : 0px;
+	border : 0px;
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+	font-size: small;
+}
+	
+A { color: Purple; }
+
+A:hover { text-decoration: underline; }
+
+H1 IMG
+{
+	vertical-align: middle;
+}
+
+p 
+{
+	padding:2px;
+}
+/*specific page elements */
+#menu {
+	position:relative;
+	height:25px;
+	padding-left: 15px;
+	white-space:nowrap;
+	font-size: 18px;
+	font-family: Trebuchet MS,Arial,sans-serif;
+	font-weight: normal;
+	border-top: 1px solid DimGray;
+	border-bottom: 1px solid DimGray;
+	BACKGROUND-IMAGE: url('wall0000.gif');
+	BACKGROUND-REPEAT: repeat-x;
+}
+
+#menu , 
+#menu A:link, 
+#menu A:visited, 
+#menu A:hover, 
+#menu A:active
+ {
+	color:Black;
+	text-decoration: none;
+ }
+ 
+#header {
+	background: white;
+}
+
+#footer {
+	height: 25px;
+	margin-top: 40px;
+	text-align:center;
+	BACKGROUND-IMAGE: url('wall0000.gif');
+	BACKGROUND-REPEAT: repeat-x;
+	vertical-align : bottom;
+	font-size: 16px;
+	font-family: Trebuchet MS,Arial,sans-serif;
+	font-weight: normal;
+	border-top: 1px solid DimGray;
+	border-bottom: 1px solid DimGray;
+}
+
+.nextprevnav {
+	margin-right:10px;
+	padding: 5px;
+	float : right;
+	border : thin dotted Black;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+.castleborder {
+	padding: 5px;
+	BACKGROUND-IMAGE: url('http://castlelaing.com/Portals/_default/Skins/castlelaing/images/wall-solid.gif');
+}
+
+#wrapper 
+{
+	width: 97%;
+	margin: 10px;
+}
+
+#content-pane {
+	padding:10px 7px 10px 15px;
+	margin: 10px;
+	clear: both;
+	line-height: 1.5em;
+}
+
+#right-pane {
+	padding:10px 18px 10px 7px;
+}
+
+#top-pane, #bottom-pane {
+	padding:10px 18px 10px 15px;
+}
+
+.content-pane .normal, .right-pane .normal, .top-pane .normal, .bottom-pane .normal
+{
+	FONT-FAMILY: Georgia, "Times New Roman", Times, serif;
+	font-size: small;
+}
+
+
+.MainMenu_MenuContainer, .MainMenu_MenuContainer .MainMenu_MenuItem, .MainMenu_MenuContainer .MainMenu_MenuItemSel {
+	height:22px;
+}
+.MainMenu_MenuIcon {
+}
+
+.MainMenu_MenuItem {
+	background:url(topnav-d.gif) repeat-y right;
+}
+.MainMenu_MenuItemSel {
+	background:#E9E9E9 url(topnav-d.gif) repeat-y right;
+}
+.MainMenu_MenuItem, .MainMenu_MenuItemSel {
+	font:normal normal 10pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.MainMenu_SubMenu .MainMenu_MenuItem, .MainMenu_SubMenu .MainMenu_MenuItemSel {
+	background-image:none;
+}
+#userlogin {
+	text-align:right;
+}
+#userlogin, #userlogin a {
+	font:normal normal 10pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color:#343434;
+}
+#userlogin a:hover {
+	color:#70a8e0;
+}
+
+
+
+
+
+
+
+
+
